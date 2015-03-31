@@ -4,12 +4,12 @@ using namespace std;
 
 class BMIcategroy{
     public:
-        void setBMI(float height, float mass){
-	float getBMI(){
-	float value(height, mass)
-	string category(BMI)
+        void setBMI(float H, float M);
+	float getBMI();
+	float value(float Ht, float Ms);
+	string category(float B);
     private:
         float height;
         float mass;
         float BMI;
-}
+};
