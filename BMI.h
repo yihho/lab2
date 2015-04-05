@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-class BMIcategroy{
+class BMIcategory{
     public:
         void setBMI(float H, float M);
 	float getBMI();

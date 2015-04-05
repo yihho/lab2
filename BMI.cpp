@@ -3,14 +3,14 @@
 #include "BMI.h"
 
         void BMIcategory::setBMI(float H, float M){
-	    BMI = M * M / H / 100;
+	    BMI = M / H / H * 10000;
 	}
 	float BMIcategory::getBMI(){
 	    return BMI;
 	}
 	float BMIcategory::value(float Ht, float Ms)
 	{
-   	    BMI = Ms * Ms / Ht / 100;
+   	    BMI = Ms / Ht / Ht *10000;
 	    return BMI;
         }
 
